@@ -4,7 +4,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
-import os, time, datetime, sqlite3, asyncpg
+import os, time, datetime, asyncpg
 
 from models import pydantics
 from helpers import data

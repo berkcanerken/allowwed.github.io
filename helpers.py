@@ -1,4 +1,4 @@
-import os, time, datetime, sqlite3, asyncpg, json 
+import os, time, datetime, asyncpg, json 
 
 
 with open("config.json" , "r") as f:
