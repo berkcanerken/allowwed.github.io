@@ -1,35 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lawcred</title>
 
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/static/style.css">
+
     <link rel="icon" href="/static/pictures/lawcred.jpg" type="image/x-icon">
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <nav class="flex flex-row justify-around p-4 fixed w-full bg-blue-400 bg-opacity-50" id="navigation">
+    <nav class="flex flex-row justify-around p-4 fixed w-full bg-blue-400 bg-opacity-50 select-none" id="navigation">
         <span class="flex flex-row items-center space-x-2">
             <img class="rounded-md" src="/static/pictures/lawcred.jpg" width="65">
             <h1 class="text-lg">Lawcred</h1>
         </span>
         <ul class="flex flex-row space-x-7 items-center text-lg" id="navLink">
             <li id="navbtn">
-                <a href="">Home</a>
+                <a class="hover:text-gray-600" href="#home">Home</a>
             </li>
             <li id="navbtn">
-                About
+                <a class="hover:text-gray-600" href="#about">About</a>
             </li>
             <li id="navbtn">
-                Contact
+                <a class="hover:text-gray-600" href="/contact">Contact</a>
             </li>
         </ul>
     </nav>
 
     <div class="pt-24" id="wrapper">
+        <div class="flex justify-center pt-40 mb-50 text-3xl font-semibold" id="home">
+            ROLLING IMAGE
+        </div>
+        <div class="flex flex-col justify-center items-center text-lg space-y-7 mt-40" id="about">
+            <h1 class="text-2xl">About Me</h1>
+            <p class="w-2/4 ml-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem laborum veritatis, quisquam est nam beatae magni dignissimos eaque a accusantium quam molestias cumque deleniti laboriosam, sunt dolor rem tempore sint eligendi! Repellendus facilis tempore quaerat vitae maxime. Ad harum tenetur in placeat iusto accusamus ullam ipsam! Odit veniam tempora rerum sapiente dolorum reiciendis perferendis eos modi corporis cumque, voluptas repellendus, quisquam eum quos? Nihil rem ea odio doloremque alias ad?</p>
+        </div>
 
+        <footer class="flex justify-center pt-32 mb-5">
+            <p>Copyright &copy 2023. All rights reserved.</p>
+        </footer>
     </div>
 </body>
 </html>
