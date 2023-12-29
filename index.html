@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lawcred</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css">
+    <script src="script.js"></script>
+
+    <link rel="icon" href="/pictures/lawcred.jpg" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- 
+    <img id="rolling-image" src="/pictures/lawcred-1.jpg" alt="ROLLING IMAGE">
+            <img id="rolling-image" src="/pictures/lawcred-2.jpg" alt="ROLLING IMAGE">
+            <img id="rolling-image" src="/pictures/lawcred-3.jpg" alt="ROLLING IMAGE">
+            <img id="rolling-image" src="/pictures/lawcred-4.jpg" alt="ROLLING IMAGE">
+ -->
+<body>
+    <nav class="flex flex-row justify-around p-4 fixed w-full bg-blue-400 bg-opacity-50 select-none z-30" id="navigation">
+        <span class="flex flex-row items-center space-x-2">
+            <img class="rounded-md" src="/pictures/lawcred.jpg" width="65">
+            <h1 class="text-lg">Lawcred</h1>
+        </span>
+        <ul class="flex flex-row space-x-7 items-center text-lg" id="navLink">
+            <li id="navbtn">
+                <a class="hover:text-gray-600" href="#home">Home</a>
+            </li>
+            <li id="navbtn">
+                <a class="hover:text-gray-600" href="#about">About</a>
+            </li>
+            <li id="navbtn">
+                <a class="hover:text-gray-600" href="https://forms.gle/qXS4AP12PDsUmiJt7" target="_blank">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="pt-24" id="wrapper">
+        <div class="flex justify-center pt-30 mb-50 text-3xl font-semibold select-none -z-20" id="home">
+            <div class="z-10 text-white mt-10 w-96 left-24 absolute text-4xl">
+                <p>Secure Your <b class="text-yellow-300">Tomorrow</b>: Legal Solutions for Today's <b class="text-yellow-300">Challenges.</b></p>
+                <button id="consult-btn" class="text-xl mt-28 border-transparent bg-blue-600 w-44 rounded-lg p-3">Consult now</button>
+            </div>
+            <img class="relative" style="max-width: none; width: 100%;" src="/pictures/law-picture.jpg" alt="Background picture">
+        </div>
+
+        <div class="flex justify-evenly mt-32">
+            <div class="text-xl w-96">
+                <p class="leading-relaxed" style="font-family: 'Goudy Bookletter 1911', serif;">"Welcome to Lawcred, where legal excellence meets unwavering dedication. Our team of seasoned attorneys is committed to providing comprehensive and tailored legal solutions to safeguard your rights and navigate the complexities of the legal landscape. With a focus on integrity, expertise, and personalized service, we stand as your trusted advocates, ensuring that justice prevails for every client we represent. Explore our range of legal services designed to address your unique needs with precision and care."</p>
+            </div>
+            <div>
+                <img class="w-96 rounded-2xl" src="/pictures/lawcred-banner.jpg" alt="lawcred banner image">
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center text-lg space-y-7 mt-40" id="about">
+            <h1 class="text-2xl">About Me</h1>
+            <p class="w-2/4 ml-4" style="color: rgba(18,17,34,.7);">Need expert consultation on Legal Matters? You're in the right place! Experienced legal professionals are here for you 24X7. Whether it's a small query or a big concern, experts are ready to help with clear & reliable advice in your Own Language.<br>No legal jargon, just simple, straightforward support. Let us take the worry out of your legal matters.</p>
+        </div>
+
+        <div class="flex mt-20 mb-16 justify-center" id="features-box">
+            <ul class="flex w-3/4 gap-14">
+                <li class="flex flex-col gap-4">
+                    <p class="text-2xl text-gray-500">01</p>
+                    <p class="text-2xl">Online Consultation with a Lawyer</p>
+                    <p class="text-gray-600">Now consult a lawyer or get your legal documents reviewed anytime from the convenience of your home. With secure calls and verified Lawyers</p>
+                </li>
+                
+                <li class="flex flex-col gap-4">
+                    <p class="text-2xl text-gray-500">02</p>
+                    <p class="text-2xl">Property legal solutions for all your property investments</p>
+                    <p class="text-gray-600">Trusted Property Legal Services. We help you take the right Property investment decisions. India's #1 Property Legal Solutions.</p>
+                </li>
+
+                <li class="flex flex-col gap-4">
+                    <p class="text-2xl text-gray-500">03</p>
+                    <p class="text-2xl">Documentation by Expert Professionals</p>
+                    <p class="text-gray-600">Corporate, HR, professional or personal, Get any legal document drafted and customised to your business or personal needs in the most affordable way.</p>
+                </li>
+
+                <li class="flex flex-col gap-4">
+                    <p class="text-2xl text-gray-500">04</p>
+                    <p class="text-2xl">Start-up Legal Solutions</p>
+                    <p class="text-gray-600">Planning a start-up or have an on-going business, now You focus on your business and leave the legal worries on us. Consulting, Drafting, Review and Filing all under one roof.</p>
+                </li>
+            </ul>
+        </div>
+
+
+        <div class="text-white flex justify-around p-20 mt-16" style="background-color: #4c50e0;">
+            <div class="flex flex-col gap-4">
+                <span class="text-4xl">
+                    10 Million +
+                </span>
+                <span class="text-xl ml-2">
+                    Consulting minutes
+                </span>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <span class="text-4xl">
+                    5 Million Pages
+                </span>
+                <span class="text-xl ml-2">
+                    Drafted & Reviewed
+                </span>
+            </div>
+
+            <div class="flex flex-col gap-4">
+                <span class="text-4xl">
+                    100, 000
+                </span>
+                <span class="text-xl ml-2">
+                    Start-up Mentored
+                </span>
+            </div>
+        </div>
+
+        <footer class="flex justify-center pt-20 mb-5">
+            <p>Copyright &copy 2023. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
