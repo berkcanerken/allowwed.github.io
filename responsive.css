@@ -1,0 +1,31 @@
+@media screen and (max-width: 880px) {
+    #data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 27px;
+    }
+
+    #information {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 50px;
+    }
+
+    #info-p {
+        width: 75%;
+    }
+
+    #banner-img {
+        background-position: 75%;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    #ok {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
