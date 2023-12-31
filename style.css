@@ -9,7 +9,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #60a5fa;
+    background-color: black;
     border-radius: 10px;
     width: 10px;
 }
@@ -30,10 +30,21 @@
     padding: 14px;
     border-radius: 10px;
     transition: transform .4s ease, box-shadow .4s;
+    background-color: #f3f4f6;
+    border: 1px solid gray;
 }
 
 #features-box ul li:hover {
     transform: scale(1.06);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+#connective-icons i {
+    transition: transform .4s;
+}
+
+#connective-icons i:hover {
+    transform: scale(1.3);
 }
 
