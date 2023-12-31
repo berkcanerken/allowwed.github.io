@@ -42,18 +42,18 @@
                 <h1 class="text-lg">Lawcred</h1>
             </div>
         </a>
-        <button class="hidden" id="navbtn">
+        <button class="hidden" id="navbtn" name="View more">
             <i class="fa-solid fa-bars" id="open_text"></i>
         </button>
         <ul class="flex flex-row space-x-7 items-center text-lg" id="navLink">
             <li id="navbar">
-                <a class="hover:text-gray-600" href="#home">Home</a>
+                <a class="hover:text-gray-200" href="#home">Home</a>
             </li>
             <li id="navbar">
-                <a class="hover:text-gray-600" href="#about">About</a>
+                <a class="hover:text-gray-200" href="#about">About</a>
             </li>
             <li id="navbar">
-                <a class="hover:text-gray-600" href="https://forms.gle/qXS4AP12PDsUmiJt7" target="_blank">Contact</a>
+                <a class="hover:text-gray-200" href="https://forms.gle/qXS4AP12PDsUmiJt7" target="_blank">Contact</a>
             </li>
         </ul>
     </nav>
@@ -66,7 +66,7 @@
                     <button id="consult-btn" class="text-xl text-white mt-28 border-transparent bg-blue-600 w-44 rounded-lg p-3">Consult now</button>
                 </div>
                 <div class="absolute inset-0">
-                    <img class="object-cover w-full h-full" src="pictures/law-picture.jpg" alt="Background picture">
+                    <img class="object-cover w-full h-full select-none" src="pictures/law-picture.jpg" alt="Background picture">
                 </div>
             </div>
         </div>
@@ -76,7 +76,7 @@
         <div class="flex justify-evenly mt-24" id="information">
             <div class="flex items-center text-lg w-96" id="info-p">
                 <!-- style="font-family: 'Goudy Bookletter 1911', serif;"" -->
-                <h4 class="leading-relaxed font-semibold text-gray-500">"Welcome to Lawcred, where legal excellence meets unwavering dedication. Our team of seasoned attorneys is committed to providing comprehensive and tailored legal solutions to safeguard your rights and navigate the complexities of the legal landscape."</h4>
+                <h4 class="leading-relaxed font-semibold text-gray-500">Legal Help is the way to assist the people who are not able to access the court easily. Legal Help includes various kinds of advice, providing service, forming draft or agreement etc. Legal advice is the way of giving professional opinion relating to any factual matter or any situation.</h4>
             </div>
             <div>
                 <img id="banner-img" class="w-96 rounded-2xl" src="pictures/lawcred-banner.jpg" alt="lawcred banner image">
@@ -85,7 +85,17 @@
 
         <div class="flex flex-col justify-center items-center text-lg space-y-7 mt-24" id="about">
             <p class="text-2xl">ABOUT US</p>
-            <h4 class="w-3/4 ml-4 text-gray-600">Need expert consultation on Legal Matters? You're in the right place! Experienced legal professionals are here for you 24X7. Whether it's a small query or a big concern, experts are ready to help with clear & reliable advice in your Own Language.<br>No legal jargon, just simple, straightforward support. Let us take the worry out of your legal matters.</h4>
+            <div class="w-3/4 ml-4 text-gray-600">
+                <h5 class="mb-10">Need expert consultation on Legal Matters? You're in the right place! Experienced legal professionals are here for you 24X7. Whether it's a small query or a big concern, experts are ready to help with clear & reliable advice in your Own Language.<br>No legal jargon, just simple, straightforward support. Let us take the worry out of your legal matters.</h5>
+
+                <h5 class="mb-7">Our company provides the solution by taking aid from virtual support to serve our clients based on the requirement. We provide the best of advice in exchange for monetary compensation.<br>In our common law system, in criminal and civil law, the advice is being provided by the advocates or lawyers, or other professionals (such as tax experts, professional advisors, etc).</h5>
+
+                <h5 class="text-black font-medium">
+                We can help, you seek legal advice from Lawcred and make this entire process seamless.
+                </h5>
+    
+            </div>
+
         </div>
 
         <div id="top-icons" class="flex justify-center text-4xl mt-20 text-gray-600">
@@ -180,7 +190,40 @@
             </div>
         </footer>
 
-        <footer class="flex justify-center pt-20 mb-5">
+        <div class="flex flex-col items-center mt-28 gap-5">
+            <p class="font-semibold text-xl">Disclaimer</p>
+            <div class="w-1/2 text-sm text-gray-600">
+                This is not a Government run Website and the form is not the actual registration form, it is just to collect information from our clients so that our expert can easily understand their business or needs. By proceeding forward with this website you are aware that we are a private firm managing this website and providing assistance based on the request from our customers and the fee collected is a consultancy fee.
+            </div>
+        </div>
+
+        <footer class="flex flex-col items-center gap-5 pt-5 pb-5 text-white bg-gray-600 mt-20 text-sm">
+            <div class="text-xs font-semibold space-x-6">
+                <a href="https://www.termsfeed.com/live/4cfa8c9b-159c-43eb-8087-da7b7b89b719" target="_blank">Terms and conditions</a>
+
+                <a href="https://www.termsfeed.com/live/064e096c-fb49-4914-b00c-c3d6805396d0">Privacy Policy</a>
+
+                <a href="https://www.termsfeed.com/live/4f223e96-2a7b-4802-9bf9-88d9e699c349">Refund Policy</a>
+            </div>
+
+            <div id="connective-icons" class="flex space-x-7 justify-center text-xl">
+                <a href="https://www.facebook.com/dipduttalegal">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/lawcred/">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.google.com/">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                <a href="https://t.me/dipdutta">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://twitter.com">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+
             <p>Copyright &copy 2023. All rights reserved.</p>
         </footer>
     </div>
