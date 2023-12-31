@@ -17,15 +17,49 @@
     }
 
     #banner-img {
-        background-position: 75%;
+        width: 20rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #consult-sentence{
+        font-size: 23pt;
     }
 }
 
 
-@media screen and (max-width: 950px) {
-    #ok {
-        flex-direction: column;
+/* NAV BAR ADDITION */
+
+@media screen and (max-width: 780px) {
+    #navbtn {
+        display: block;
+        background-color: transparent;
+        border: none;
+        padding: .5rem;
+        font-size: 17pt;
+        display: flex;
         align-items: center;
-        gap: 30px;
+    }
+
+    #navLink {
+        display: flex;
+        height: 100vh;
+        width: 170px;
+        padding: .7rem;
+        border-radius: 20px;
+        justify-content: start;
+        flex-direction: column;
+        position: fixed;
+        top: 10vh;
+        right: -100%;
+        background-color: #60a5fa;
+        backdrop-filter: blur(7px);
+        font-size: 18px;
+        align-items: start;
+    }
+
+    #navLink li {
+        padding: 0.5rem;
+        margin: 0;
     }
 }

@@ -22,22 +22,18 @@
 }
 
 #consult-btn:hover {
-    background-color: black;
+    background-color: white;
     color: #3b82f6;
 }
 
 #features-box ul li {
-    padding: 8px;
+    padding: 14px;
     border-radius: 10px;
     transition: transform .4s ease, box-shadow .4s;
 }
 
 #features-box ul li:hover {
-    transform: scale(1.1);
+    transform: scale(1.06);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    
 }
 
-#ok {
-    margin-left: 8vw;
-}
