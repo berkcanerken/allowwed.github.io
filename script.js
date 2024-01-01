@@ -14,7 +14,7 @@ window.onload = () => {
 	const toggler = new Toggler();
 
 	document.getElementById("navbtn").addEventListener("click", () => {
-			toggler.toggleSlide("navLink", "right", .5);
+			toggler.toggleSlide("navLink", "right", .4);
 			toggler.toggleClass("open_text", "fa-bars", "fa-xmark");
 	});
 }
