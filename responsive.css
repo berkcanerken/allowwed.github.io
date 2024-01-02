@@ -30,6 +30,7 @@
 @media screen and (max-width: 460px) {
     #cc-1 {
         font-size: 18pt;
+        width: 20rem;
     }
 }
 
