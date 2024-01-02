@@ -18,7 +18,7 @@
 
 
 #consult-btn {
-    transition: color 0.4s ;
+    transition: color 0.4s, background-color .4s;
 }
 
 #consult-btn:hover {
