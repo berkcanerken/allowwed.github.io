@@ -22,8 +22,14 @@
 }
 
 @media screen and (max-width: 540px) {
-    #consult-sentence{
+    #cc-1 {
         font-size: 23pt;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    #cc-1 {
+        font-size: 18pt;
     }
 }
 
