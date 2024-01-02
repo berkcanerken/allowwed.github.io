@@ -1,4 +1,4 @@
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 881px) {
     #data {
         display: flex;
         flex-direction: column;
@@ -21,13 +21,13 @@
     }
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 541px) {
     #cc-1 {
         font-size: 23pt;
     }
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 461px) {
     #cc-1 {
         font-size: 18pt;
         width: 20rem;
